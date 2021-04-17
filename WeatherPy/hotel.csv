@@ -1,12 +1,17 @@
-,City,Country,Lat,Lng,Humidity,Hotel Rating,Hotel Name
-73,Nelson Bay,AU,-32.7167,152.15,41,4.5,Amarna Luxury Beach Resort - Guest Only
-209,Ixtapa,MX,20.7,-105.2,78,4.5,Hotel Mio Vallarta
-268,Flinders,AU,-34.5833,150.8552,42,5.0,Ocean Farm
-273,Iranshahr,IR,27.2025,60.6848,27,0.0,هتل خنونه سرزه
-295,Kavaratti,IN,10.5669,72.642,67,4.6,Bangaram Island Resort
-355,Kiama,AU,-34.6833,150.8667,42,5.0,Ocean Farm
-360,Cabo San Lucas,MX,22.8909,-109.9124,37,4.7,Nobu Hotel Los Cabos
-425,Araouane,ML,18.9048,-3.5265,13,,
-444,San Lorenzo,PY,-25.3333,-57.5333,88,4.7,Factoria Hotel
-514,Malakal,SS,9.5334,31.6605,12,5.0,Nile Palace Hotel
-519,Bilma,NE,18.6853,12.9164,8,,
+,City,Country,Lat,Lng,Max Temp,Humidity,Hotel Name,Hotel Rating
+26,Riyadh,SA,24.6877,46.7219,77.0,23,Muhaidib Hotel,3.8
+87,Carnarvon,AU,-24.8667,113.6333,75.63,62,Carnarvon Hotel,4.3
+89,Mathbaria,BD,22.2876,89.9593,76.53,88,Hotel Grand Park Barisal,4.3
+118,Portland,US,45.5234,-122.6762,82.99,22,The Heathman Lodge,4.5
+132,Marsá Maţrūḩ,EG,31.3525,27.2453,77.0,27,Almaza Bay,4.6
+196,Mossamedes,AO,-15.1961,12.1522,81.72,68,iu Hotel Namibe,3.6
+299,Karratha,AU,-20.7377,116.8463,79.79,47,Karratha International Hotel,4.0
+339,Noumea,NC,-22.2763,166.4572,78.01,78,DoubleTree Noumea Ilot Maitre resort,4.3
+360,Burhānpur,IN,21.3,76.2333,84.96,24,Hotel High Rise Regency,4.9
+368,Atar,MR,20.5169,-13.0499,79.27,18,Auberge mer et desert,4.1
+397,Tekkali,IN,18.6167,84.2333,77.61,89,SPR Grand Hotel,3.9
+457,Roebourne,AU,-20.7833,117.1333,80.4,45,Karratha International Hotel,4.0
+467,Luxor,EG,25.6989,32.6421,84.2,26,Hilton Luxor Resort & Spa,4.7
+478,Ratnagiri,IN,16.9833,73.3,80.28,77,HOTEL SHIV SAGAR PALACE,4.2
+518,Conceição do Araguaia,BR,-8.2578,-49.2647,75.2,94,Tarumã Tropical Hotel,4.0
+550,Salalah,OM,17.0151,54.0924,78.8,73,Bristol Hotel Salalah,4.0

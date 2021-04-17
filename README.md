@@ -1,21 +1,7 @@
 # python-api-challenge
 
-I started the api challenge by creating a repo on github and cloned to my PC. Using gitbash I used the function mkdir to created the required directories/folders and nested them under the matplotlib-challenge main folder. I opened the starter code python file and saved it in matplotlib-challenges folder. I pushed changes to my repo on github via gitbash using git add ., git commit -m "", git push.
+The api-challenge had two Parts. In Part I, I started by running a random request using Latitude and Longitude coordinates with the citipy libaray to create a random city list with 500+ cities. From performed an API call from openweathermap.org to get the weather stats and combined the city list and weather stats to create a dataframe. I used the .describe functions to review the list of cities' count, mean, std, min and max stats for humidty, tempature, cloudiness and wind speed. I filtered out the cities that were outliers, stored the information in the dataframe in a CSV, and created scatter plots for visulazation. 
 
-For both part I, "weatherpy." and part II, "vacationpy," I used Jupyter Notebook to record the code and run the code. The starter codes for both parts included the dependencies/set-up. For weatherpy I xx.... For the vacationpy I imported the csv file I created in the part I. 
+In Part II, I loaded the CSV from Part I and created a dataframe. I  created a heatmap based on humidity levels. I then defined the ideal weather patterns with a minimum tempature of 75, maximum tempature of 85, 1% or less cloud coverage, and less than 10 mph wind speeds. After filtering out any city that did not meet the ideal weather, I was left with 16 cities. 
 
-The highlights in both parts were xx.
-
-I made sure to keep the main data frame untouched so I could call it at anytime I needed additional data but I also created a demographic speicfic data frame so that I could call only the data that was age and gender specific.
-
-The code for the scatter plot that includes the line equation (using the annotate function) is this:
-
-line_eq = "y = " + str(round(slope,2)) + "x + " + str(round(intercept,2)) plt.scatter(Cap_tum_avg['Weight (g)'],Cap_tum_avg['Tumor Volume (mm3)']) plt.plot(Cap_tum_avg['Weight (g)'],fit, "r-") plt.title('Mouse Weight Versus Average Tumor Volume') plt.annotate(line_eq,(18,36), fontsize=15, color="red") plt.xlabel('Weight (g)') plt.ylabel('Averag Tumor Volume (mm3)') print(f"The r-squared is: {rvalue**2}") plt.show()
-
-I cacluated the correlation coefficient using the following:
-
-correlation = round(stats.pearsonr(Cap_tum_avg['Weight (g)'],Cap_tum_avg['Tumor Volume (mm3)'])[0],2)
-
-Finally, I used the following to calculate the linear regression:
-
-slope, intercept, rvalue, pvalue, std_err = stats.linregress(Cap_tum_avg['Weight (g)'],Cap_tum_avg['Tumor Volume (mm3)'])
+The highlight of both projects was in Part II, where I performed an API call from gmaps and added hotels within 5k meters from the 16 cities and created a heat map with hotel markers for visulazation. 
